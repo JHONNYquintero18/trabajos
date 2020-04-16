@@ -1,0 +1,20 @@
+# include <iostream>
+using namespace std;
+main ()
+{
+	float temp,valor,respuesta;
+	cout<<"camara detectora del segundo sintoma al covid-19"<<endl<<endl<<endl;
+    cout<<"temperaturas mayores a 37� !!alerta!!"<<endl<<endl;
+    cout<<"por favor ingrese su temperatura corporal"<<endl<<endl;
+    cin>>temp;
+    if(temp>37)
+        {
+        cout<<"necesitas chequeo urgente de un medico,pues tienes uno de los sintomas del virus "<<temp<<endl; 
+		}
+    else
+    {
+    	cout<<"cuidate mucho";
+    	
+	}
+
+}
